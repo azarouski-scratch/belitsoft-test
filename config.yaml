@@ -1,0 +1,8 @@
+# Base configuration for tests. Values can be overridden by environment variables.
+# Env overrides: BASE_URL, DEFAULT_TIMEOUT, RETRY_ATTEMPTS, RETRY_WAIT, ENV, API_KEY
+
+base_url: "https://httpbin.org"
+default_timeout: 10
+retry:
+  attempts: 3
+  wait_seconds: 1
